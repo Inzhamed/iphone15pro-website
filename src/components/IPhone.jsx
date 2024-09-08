@@ -11,7 +11,7 @@ import React, { useEffect, useRef } from "react";
 import { useGLTF, useTexture } from "@react-three/drei";
 
 export const IPhone = (props) => {
-  const { nodes, materials } = useGLTF("/models/scene.glb");
+  const { nodes, materials } = useGLTF("/iphone15pro-website/models/scene.glb");
   const texture = useTexture(props.item.img);
 
   useEffect(() => {
